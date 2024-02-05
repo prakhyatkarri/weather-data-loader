@@ -4,7 +4,7 @@ import json
 
 class Station_Service():
     endpoint:str
-    base_url: str | None = "http://api.weather.gov/"
+    base_url: str = "http://api.weather.gov/"
 
     def __init__(self, endpoint) -> None:
         self.endpoint = endpoint
